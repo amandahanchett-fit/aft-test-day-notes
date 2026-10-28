@@ -1,0 +1,63 @@
+{
+  "name": "aft-test-day-guide",
+  "bucket": "aft-test-day-guide",
+  "preset": "vue",
+  "env": "production",
+  "prefix": "20261028063710",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": [],
+  "application": {
+    "id": 1793161102,
+    "name": "aft-test-day-guide"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "domain_name": "",
+    "url": ""
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": null,
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 1256910,
+        "name": "Deliver Static Assets and Set Cache Policy",
+        "phase": "request"
+      },
+      {
+        "id": 1256911,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": [
+    {
+      "id": 381057,
+      "name": "aft-test-day-guide"
+    }
+  ],
+  "workloads": {
+    "id": 1793169473,
+    "name": "aft-test-day-guide",
+    "domains": [],
+    "url": "https://xlgi2ju45fo.map.azionedge.net",
+    "deployment_id": [
+      {
+        "id": 351817,
+        "name": "aft-test-day-guide"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "id": 204517,
+      "name": "aft-test-day-guide"
+    }
+  ]
+}
